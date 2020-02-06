@@ -1,1 +1,1 @@
-# remove-prefix-from-archive-titles
+# Remove Prefix From Archive Titles
