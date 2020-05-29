@@ -24,4 +24,4 @@ function remove_archive_prefix( $title ) {
 	return $title;
 }
 
-add_filter( 'get_the_archive_title', 'remove_archive_prefix' );
+add_filter( 'get_the_archive_title', __NAMESPACE__ . '\\remove_archive_prefix' );
